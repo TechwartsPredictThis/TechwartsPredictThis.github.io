@@ -7,10 +7,12 @@ body, html {
 
 .clubs {
     position: fixed;
+    width: 75%;
     bottom: 10%;
     left: 50%;
     /* bring your own prefixes */
-    margin-left: -250px;
+    margin-left: -32%;
+
 }
 
 #ai_tag {
@@ -22,38 +24,21 @@ body, html {
 }
 
 #arvr {
-    width: 30%;
-    height: auto;
-    position: fixed;
-    bottom: 30%;
-    left: 60%;
-    visibility: hidden;
+    width: 100%;
 }
 
 #code {
     width: 30%;
-    height: auto;
-    position: fixed;
-    top: 15%;
-    left: 60%;
-    visibility: hidden
+
 }
 #ai {
-    width: 40%;
-    height: auto;
-    position: fixed;
-    bottom: 25%;
-    left: 50%;
-    visibility: hidden
+    width: 100%;
+    
+
 }
 
 #android {
     width: 30%;
-    height: auto;
-    position: fixed;
-    top: 15%;
-    left: 60%;
-    visibility: hidden
 }
 
 button {
@@ -94,6 +79,27 @@ button:active {
     color: gray;
 }
 
+#card:hover {
+    box-shadow: 1px 1px 30px 1px;
+    transition: 0.3s;
+}
+
+#card:active {
+    box-shadow: none;
+}
+
 #techwarts {
-    font-size: 700%;
+    position: fixed;
+    width: 75%;
+    left: 50%;
+    top: 0px;
+    margin-left: -37%;
+}
+
+#notfound {
+    position: fixed;
+    width: 45%;
+    left: 50%;
+    top: 0px;
+    margin-left: -25%;
 }
