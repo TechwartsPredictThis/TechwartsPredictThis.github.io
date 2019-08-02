@@ -8,10 +8,10 @@ body, html {
 
 #techwarts {
     position: relative;
-    width: 100%;
+    width: 95%;
     left: 50%;
     top: 65px;
-    margin-left: -48%;
+    margin-left: -45%;
 }
 .clubs {
     position: relative;
