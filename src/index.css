@@ -11,7 +11,7 @@ body, html {
     width: 100%;
     left: 50%;
     top: 65px;
-    margin-left: -50.5%;
+    margin-left: -48%;
 }
 .clubs {
     position: relative;
@@ -78,7 +78,7 @@ body, html {
 
 #code {
     max-width: 100%;
-    width: 50%;
+    width: 48%;
 
 }
 #ai {
