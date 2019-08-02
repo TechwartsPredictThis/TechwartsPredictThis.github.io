@@ -93,17 +93,6 @@ body, html {
         min-width: 600px;
         overflow: auto;
     }
-    .clubs {
-        position: relative;
-        width: 75%;
-        min-width: 900px;
-        top: 350px;
-        left: 50%;
-        /* bring your own prefixes */
-        margin-left: -32%;
-
-    }
-
 
 
     #arvr {
@@ -155,23 +144,8 @@ body, html {
         box-shadow: none;
     }
 
-    #aboutus {
-        font-size: 120%;
-        text-decoration: none;
-        color: gray;
-        display: block;
-    }
-
-    #aboutusdiv {
-        position: fixed;
-        bottom: 1%;
-        left: 50%;
-        margin-top: 300px;
-        margin-left: -25px;
-    }
-
     #user-card:hover {
-        box-shadow: 1px 1px 10px 1px;
+        box-shadow: 1px 1px 20px 1px rgb(77, 97, 129);
         transition: 0.3s;
     }
 
@@ -190,8 +164,11 @@ body, html {
     }
 
     #user-card {
-        max-width: 21%;  margin: 10px 10px;
+        max-width: 15%;  
+        margin-top: 25px;
+        /* margin: 10px 10px; */
     }
+
 
     /* #notfound {
         position: fixed;
@@ -210,22 +187,6 @@ body, html {
 
     #info {
         width: 4400px;
-    }
-
-    #register {
-        width: 140px;
-        position: fixed;
-        /* margin-left: -140px; */
-        right: 160px;
-        border: none;
-    }
-
-    #gallery {
-        /* width: 140px;
-        position: fixed;
-        margin-left: -140px;
-        right: 40px;
-        border: none; */
     }
 
     #register-form {
