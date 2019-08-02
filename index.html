@@ -9,45 +9,55 @@
     <title>Official Website</title>
 </head>
 <body>
-  <img src="./public/svg/techwarts.svg" id="techwarts">
+  <div>
+      <div class="btn-group" role="group" id="user-navbar" aria-label="Basic example" style="z-index: 1;">
+          <a type="" class="btn btn-warning" id="register" href="./src/register.html">Register</a>
+          <a type="" class="btn btn-warning" id="gallery">About us</a>
+        </div>
   </div>
-  <div class="clubs">
-      <div class="row">
-          <div class="card bg-light mb-4" id="card" style="max-width: 21%; margin: 10px 10px;">
-              <img src="./public/svg/ai.svg" class="card-img-top" alt="..." id="ai">
+  
+  <img src="./public/svg/techwarts.svg" id="techwarts">
+  <!-- <div class="clubs">
+      
+    </div> -->
+    <div class="row">
+        <div class="card bg-light mb-4" id="user-card">
+            <img src="./public/svg/ai.svg" class="card-img-top" alt="..." id="ai">
+            <div class="card-body">
+              <h5 class="card-title">Predict This</h5>
+              <p class="card-text">
+                  The real risk with AI isn’t malice but competence.
+                  With us master AI before it masters you.
+              </p>
+          </div>
+        </div>
+        <div class="card bg-light mb-4" id="user-card">
+            <img src="./public/svg/arvr.svg" class="card-img-top" alt="..." id="arvr">
               <div class="card-body">
-                <h5 class="card-title">Predict This</h5>
+                <h5 class="card-title">Pixel</h5>
                 <p class="card-text">
-                    The real risk with AI isn’t malice but competence.
-                    With us master AI before it masters you.
+                  At pixel we help you prepare for a redefined reality.
                 </p>
-            </div>
           </div>
-          <div class="card bg-light mb-4" id="card" style="max-width: 21%;  margin: 10px 10px;">
-              <img src="./public/svg/arvr.svg" class="card-img-top" alt="..." id="arvr">
-                <div class="card-body">
-                  <h5 class="card-title">Pixel</h5>
-                  <p class="card-text">
-                    At pixel we help you prepare for a redefined reality.
-                  </p>
+        </div>
+        <div class="card bg-light mb-4" id="user-card" id="code">
+            <img src="./public/svg/code.svg" class="card-img-top" alt="..." id="code">
+              <div class="card-body">
+                  <h5 class="card-title">Code</h5>
+                  <p class="card-text">Everyone can write code. We write it better.</p>
+              </div>
             </div>
-          </div>
-          <div class="card bg-light mb-4" id="card" style="max-width: 21%; margin: 10px 10px;" id="code">
-              <img src="./public/svg/code.svg" class="card-img-top" alt="...">
+        <div class="card bg-light mb-4" id="user-card" id="android">
+            <img src="./public/svg/android.svg" class="card-img-top" alt="..." id="android">
                 <div class="card-body">
-                    <h5 class="card-title">Code</h5>
-                    <p class="card-text">Everyone can write code. We write it better.</p>
+                  <h5 class="card-title">OnCreate()</h5>
+                  <p class="card-text">Heard about android Apps? Well, we help you learn exactly how to build them.</p>
                 </div>
-              </div>
-          <div class="card bg-light mb-4" id="card" style="max-width: 21%; margin: 10px 10px;" id="android">
-              <img src="./public/svg/android.svg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">OnCreate()</h5>
-                    <p class="card-text">Heard about android Apps? Well, we help you learn exactly how to build them.</p>
-                  </div>
-              </div>
+        </div>
+    
+    <div id="aboutusdiv">
+      <a href="./src/aboutus.html" id="aboutus">About us</a>
     </div>
-  <a href="./src/aboutus.html" id="aboutus">About us</a>
   
   <script src="./src/index.js"></script>
 </body>
